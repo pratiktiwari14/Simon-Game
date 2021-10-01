@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simon-Game</title>
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+  <div>
+    <div onclick="panelClicked(event.currentTarget) , myFunction()" class="panel top-left-panel"></div>
+    <div onclick="panelClicked(event.currentTarget)" class="panel top-right-panel"></div>
+  </div>
+  <div>
+    <div onclick="panelClicked(event.currentTarget)" class="panel bottom-left-panel"></div>
+    <div onclick="panelClicked(event.currentTarget)" class="panel bottom-right-panel"></div>
+  </div>
+
+  <div class="centre"></div>
+
+     <button class="play-button" onclick="window.location.reload();" type="button">Start</button>
+
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
